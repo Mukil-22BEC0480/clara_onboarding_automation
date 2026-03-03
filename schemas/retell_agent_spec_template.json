@@ -1,1 +1,15 @@
-
+{
+  "agent_name": "",
+  "version": "",
+  "voice_style": "professional, calm, efficient",
+  "timezone": "",
+  "business_hours": {},
+  "system_prompt": "",
+  "call_transfer_protocol": "",
+  "fallback_protocol": "",
+  "tool_placeholders": [
+    "create_job",
+    "log_call",
+    "notify_dispatch"
+  ]
+}
