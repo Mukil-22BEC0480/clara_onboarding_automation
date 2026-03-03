@@ -1,1 +1,58 @@
-
+{
+  "account_id": "ben_electrical_001",
+  "company_name": "Ben Electrical Services (Name inferred from context - exact legal name unknown)",
+  "business_hours": {
+    "days": [],
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "service calls",
+    "electrical troubleshooting",
+    "residential renovations",
+    "commercial projects",
+    "custom home wiring",
+    "tenant improvements",
+    "EV charger installations",
+    "hot tub electrical hookups",
+    "panel changes"
+  ],
+  "emergency_definition": [
+    "emergency calls from property managers",
+    "urgent gas station pump failures"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "Ben (owner)",
+    "secondary_contact": "",
+    "order": ["Ben"],
+    "notes": "Only select emergency clients are serviced after hours"
+  },
+  "non_emergency_routing_rules": {
+    "primary_contact": "AI intake then owner review",
+    "notes": "Most service calls handled during business hours"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": "",
+    "retry_attempts": "",
+    "fallback_action": ""
+  },
+  "integration_constraints": [
+    "Uses Jobber CRM",
+    "Jobber integration not yet live"
+  ],
+  "after_hours_flow_summary": "After hours emergency calls handled selectively by owner. Non-emergency calls likely deferred to next business day.",
+  "office_hours_flow_summary": "Owner handles most incoming calls manually today. Interested in AI answering and summarizing calls before review.",
+  "questions_or_unknowns": [
+    "Exact business hours?",
+    "Timezone?",
+    "Office address?",
+    "Exact definition of emergency?",
+    "Transfer timeout duration?",
+    "Escalation chain if owner unavailable?",
+    "Preferred language handling?",
+    "Call recording consent requirements?"
+  ],
+  "notes": "Owner wants AI screening, sales call filtering, preferred number bypass, and smart escalation."
+}
