@@ -1,0 +1,30 @@
+{
+  "account_id": "ben_electrical_001",
+  "changes": [
+    {
+      "field": "pricing.service_call_fee",
+      "old": null,
+      "new": 150
+    },
+    {
+      "field": "pricing.hourly_rate",
+      "old": null,
+      "new": 175
+    },
+    {
+      "field": "pricing.billing_increment_minutes",
+      "old": null,
+      "new": 30
+    },
+    {
+      "field": "after_hours.special_emergency_client",
+      "old": null,
+      "new": "GNM Property Management gas station properties"
+    },
+    {
+      "field": "notifications",
+      "old": "unspecified",
+      "new": "SMS and Email notifications enabled"
+    }
+  ]
+}
