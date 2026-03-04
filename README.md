@@ -1,5 +1,3 @@
-# clara_onboarding_automation
-
 # Clara Onboarding Automation
 
 ## Overview
@@ -41,10 +39,11 @@ clara_onboarding_automation
 │
 ├── schemas
 │   ├── account_memo_schema.json
-│   └── agent_spec_schema.json
+│   └── retell_agent_spec_template.json
 │
 ├── workflows
-│   └── clara_onboarding_pipeline.json
+│   ├── clara_pipeline.json
+│   └── clara_pipeline_diagram.png
 │
 └── README.md
 ```
