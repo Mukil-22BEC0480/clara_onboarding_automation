@@ -28,14 +28,17 @@ clara_onboarding_automation
 ├── outputs
 │   └── accounts
 │       └── ben_electrical_001
+│           │
 │           ├── v1
-│           │   └── account_memo.json
+│           │   ├── account_memo.json
+│           │   └── agent_spec.json
 │           │
-│           ├── v2
-│           │   └── account_memo.json
-│           │
-│           └── changelog
-│               └── changes.json
+│           └── v2
+│               ├── account_memo.json
+│               └── agent_spec.json
+│
+├── changelog
+│   └── changes.json
 │
 ├── schemas
 │   ├── account_memo_schema.json
@@ -43,7 +46,7 @@ clara_onboarding_automation
 │
 ├── workflows
 │   ├── clara_pipeline.json
-│   └── clara_pipeline_diagram.png
+│   └── clara_pipeline_diagram.jpeg
 │
 └── README.md
 ```
