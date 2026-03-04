@@ -1,0 +1,49 @@
+{
+  "account_id": "ben_electrical_001",
+  "company_name": "Ben Electrical Services",
+  "business_hours": {
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "services_supported": [
+    "service calls",
+    "electrical troubleshooting",
+    "residential renovations",
+    "commercial electrical work",
+    "EV charger installations",
+    "hot tub electrical hookups",
+    "panel changes"
+  ],
+  "pricing": {
+    "service_call_fee": 150,
+    "hourly_rate": 175,
+    "billing_increment_minutes": 30,
+    "pricing_policy": "Mention only if customer asks"
+  },
+  "call_handling": {
+    "initial_setup": "If Ben does not answer or declines, call forwards to Clara",
+    "future_setup": "Clara answers first then escalates to Ben second number if needed"
+  },
+  "notifications": {
+    "sms": true,
+    "email": true
+  },
+  "after_hours": {
+    "dispatch": false,
+    "special_emergency_client": {
+      "name": "GNM Property Management",
+      "type": "Gas station properties"
+    },
+    "default_behavior": "Collect message and respond next business day"
+  },
+  "questions_or_unknowns": [
+    "Exact office hours start time",
+    "Exact office hours end time",
+    "Timezone",
+    "Transfer timeout duration",
+    "Escalation order beyond Ben",
+    "Office address"
+  ]
+}
